@@ -12,13 +12,14 @@ body {
 	background-image: url('../images/concrete_seamless.png');
 	background-attachment: fixed;
 	height: 700px;
-	margin: 0;
-  	top: 0;
-  	left: 0;
+	/*margin: 0;*/
+  /*	top: 0;
+  	left: 0;*/
 }
 
 #fixedheader {
   background: white;
+  /*position: fixed;*/
 /*  padding-left: 50px;*/
   width: 100%;
   height: 100px;
@@ -45,37 +46,39 @@ body {
 }
 
 #about {
-	background: red;
+	background: pink;
 	float: right;
-	height: 40px;
-  	width: 40px;
+	height: 80px;
+  	width: 80px;
   	padding: 10px;
   	text-align: center;
 }
 
 #portfolio{
-	background: green;
+	background: lightgreen;
 	float: right;
-	height: 40px;
-  	width: 40px;
+	height: 80px;
+  	width: 80px;
   	padding: 10px;
   	text-align: center;
 }
 
 #contact{
-	background: blue;
+	background: lightblue;
 	float: right;
-	height: 40px;
-  	width: 40px;
+	height: 80px;
+  	width: 80px;
   	padding: 10px;
   	text-align: center;
 }
 
 .wrapper{
-	width: 400px;
-	margin: 0 auto 0 auto;
+  background: white;
+	width: 650px;
+	margin: 50px auto 0 100px;
 	padding: 20px;
 }
+
 /*
 .art{
 	color: white;
@@ -95,16 +98,12 @@ body {
 	margin: 20px 20px 10px 20px;
 }
 */
-#abovefooter {
-	background-color: #4aaaa5;	
-	height: 10px;
-	width: 100%;
-}
 
 footer {
 	clear: both;
 	overflow: auto;
-  	padding: 40px;
+  position: fixed;
+  padding: 40px;
   	margin-bottom: 20px;
   	background: #666666;
   	color: white;
@@ -112,4 +111,7 @@ footer {
   	font-family: "arial"
   	font-size: 18px;
   	width: 100%;
+    border-top-width: 10px; 
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
 }
