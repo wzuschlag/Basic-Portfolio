@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 body {
@@ -12,14 +12,14 @@ body {
 	background-image: url('../images/concrete_seamless.png');
 	background-attachment: fixed;
 	height: 700px;
-	/*margin: 0;*/
-  /*	top: 0;
-  	left: 0;*/
+	margin: 0;
+  top: 0;
+  left: 0;
 }
 
 #fixedheader {
   background: white;
-  /*position: fixed;*/
+  position: fixed;
 /*  padding-left: 50px;*/
   width: 100%;
   height: 100px;
@@ -39,79 +39,74 @@ body {
   	padding: 30px;
   	margin-left: 100px;
   	text-align: center;
- /* 	margin: 0;
-  	top: 0;
-  	left: 0;*/
-
 }
 
-#about {
-	background: pink;
-	float: right;
-	height: 80px;
-  	width: 80px;
-  	padding: 10px;
-  	text-align: center;
-}
+#links{
+    
+    font-size: 14px;
+    font-family: Georgia;
+    position: absolute;
+    background-color: white;
+    color: white;
+    top: 40px;
+    left: 800px;
+    width: 250px;
+    height: 50px;
+    border: 5px solid #4aaaa5;
+    text-align: center;
 
-#portfolio{
-	background: lightgreen;
-	float: right;
-	height: 80px;
-  	width: 80px;
-  	padding: 10px;
-  	text-align: center;
-}
-
-#contact{
-	background: lightblue;
-	float: right;
-	height: 80px;
-  	width: 80px;
-  	padding: 10px;
-  	text-align: center;
 }
 
 .wrapper{
-  background: white;
-	width: 650px;
-	margin: 50px auto 0 100px;
-	padding: 20px;
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    color: #4aaaa5;
+    top: 150px;
+    left: 100px;
+    width: 650px;
+    height: 500px;
+    border: 30px solid white;
 }
 
-/*
-.art{
-	color: white;
+.contactwrapper{
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    color: #4aaaa5;
+    top: 150px;
+    left: 100px;
+    width: 650px;
+    height: 500px;
+    border: 30px solid white;
+
 }
 
-.hhh {
-	background-color: #ebebeb;
-	height: 50px;
-	padding-top: 20px;
-	margin: 30px 20px 0px 20px;
+#networklinks{
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    color: #4aaaa5;
+    top: 150px;
+    left: 790px;
+    width: 270px;
+    height: 200px;
+    border: 5px solid #8AC007;
 }
-
-.p_div{
-	background-color: #ebebeb;
-	padding-top: 18px;
-	height: 50px;
-	margin: 20px 20px 10px 20px;
-}
-*/
 
 footer {
 	clear: both;
 	overflow: auto;
   position: fixed;
   padding: 40px;
-  	margin-bottom: 20px;
-  	background: #666666;
-  	color: white;
-  	height: 100px;
-  	font-family: "arial"
-  	font-size: 18px;
-  	width: 100%;
-    border-top-width: 10px; 
-    border-top-style: solid;
-    border-top-color: #4aaaa5;
+  margin-bottom: 20px;
+  background: #666666;
+  color: white;
+  height: 100px;
+  font-family: "arial"
+  font-size: 12px;
+  width: 100%;
+  border-top-width: 10px; 
+  border-top-style: solid;
+  border-top-color: #4aaaa5;
 }
