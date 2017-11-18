@@ -4,13 +4,10 @@
 }
 
 body {
-	/*background: #4aaaa5;*/
-	/*background: white;*/
   background-image: url('../images/concrete_seamless.png');
 }
 
 #container {
-	/*background-image: url('../images/concrete_seamless.png');*/
 	background-attachment: fixed;
 	height: 700px;
 	margin: 0;
@@ -21,12 +18,12 @@ body {
 #fixedheader {
   background: white;
   position: fixed;
-/*  padding-left: 50px;*/
   width: 100%;
   height: 100px;
   margin: 0;
   top: 0;
   left: 0;
+  z-index: +1;
 
 }
 
@@ -42,13 +39,12 @@ body {
   	text-align: center;
 }
 
-#links{
-    
-    font-size: 14px;
+#links{    
+    font-size: 16px;
     font-family: Georgia;
     position: absolute;
     background-color: white;
-    color: white;
+    color: gray;
     top: 40px;
     left: 800px;
     width: 250px;
@@ -58,10 +54,12 @@ body {
 
 }
 
+h1{
+  border-bottom: solid;
+}
+
 .wrapper{
     position: absolute;
-    float: left;
-    /*text-align: left;*/
     background-color: white;
     color: #4aaaa5;
     top: 150px;
@@ -71,6 +69,25 @@ body {
     border: 30px solid white;
 }
 
+img{
+  float: left;
+}
+
+.wrapperportfolio{
+    position: absolute;
+    float: left;
+    background-color: white;
+    color: #4aaaa5;
+    top: 150px;
+    left: 100px;
+    width: 650px;
+    height: 1050px;
+    border: 30px solid white;
+}
+
+#portfoliopics{
+  padding-left: 10px;
+}
 .contactwrapper{
     position: absolute;
     text-align: left;
@@ -81,8 +98,30 @@ body {
     width: 650px;
     height: 500px;
     border: 30px solid white;
-    display: inline-block;
+}
 
+#textfield1{
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  color: lightgray;
+}
+
+#textfield2{
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  color: lightgray;
+}
+
+#messagefield1{
+  height: 150px;
+  width: 100%;
+}
+
+#buttonsubmit{
+  background-color: #4aaaa5;
+  font-size: 16px;
 }
 
 #networklinks{
@@ -94,13 +133,14 @@ body {
     left: 790px;
     width: 270px;
     height: 200px;
-    border: 5px solid white;
+    border: 10px solid white;
 }
 
 footer {
 	clear: both;
 	overflow: auto;
   position: fixed;
+  text-align: center;
   padding: 40px;
   margin-bottom: 20px;
   background: #666666;
